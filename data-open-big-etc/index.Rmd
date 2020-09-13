@@ -5,6 +5,7 @@ author: "Mathieu Morey"
 date: "2020-09-14"
 output:
   SlidesDatactivist::moon_reader:
+    seal: false
     css: [default, datactivist, datactivist-fonts]
     lib_dir: libs
     nature:
@@ -16,11 +17,17 @@ params:
   slug: data-open-big-etc/
 ---
 
-layout: true
-  
+class: center, middle
+<!-- background-image: url(./img/seurat.jpg) -->
+background-size: cover
+background-position: 50% 50%
 
-`r paste0("<div class='my-footer'><span>", params$event, "</span> <center><div class=logo><img src='https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/fond_noir_monochrome.png' width='100px'></center></span></div>")` 
+# Data
+## Open, Big, etc
+<BR><BR><BR>
+## Mathieu Morey (Datactivist)
 
+### 2020-09-14
 ---
 
 class: center, middle
@@ -112,7 +119,7 @@ class:center,inverse, middle
 
 .footnote[*Asterix chez les pictes*, © Albert René 2013]
 ---
-## Statistics : tool for government and evidence
+## Statistics : tool for government and proof
 .pull-left[.middle[Statistics is simultaneously :
 
   + **mean of government** (_Statistik_ - 18th century), et
