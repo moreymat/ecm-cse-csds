@@ -43,6 +43,21 @@ Productions by Datactivist are freely reusable under the terms of the [Creative 
 ![](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png)
 
 ---
+# Checklist : Setup
+
+- Download miniconda for linux from https://docs.conda.io/en/latest/miniconda.html :
+https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+
+- Install miniconda :
+`bash Miniconda3-latest-Linux-x86_64.sh`
+then answer "yes" to the two yes/no questions
+
+- (restart your terminal) Install jupyterlab and pandas :
+`conda install -c conda-forge jupyterlab pandas`
+
+- (restart your terminal) `jupyter-lab`
+
+---
 # Python basics
 
 Types include :
