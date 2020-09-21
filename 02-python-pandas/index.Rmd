@@ -1,0 +1,116 @@
+---
+title: "Python and pandas"
+subtitle: "Tabular data in Python"
+author: "Mathieu Morey"
+date: "2020-09-21"
+output:
+  SlidesDatactivist::moon_reader:
+    seal: false
+    css: [default, datactivist, datactivist-fonts]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+params:
+  event: "MScT CSE - CSDS"
+  slug: 02-python-pandas/
+---
+
+class: center, middle
+background-position: 50% 50%
+
+# Python and pandas
+## Tabular data in Python
+<BR><BR><BR>
+## Mathieu Morey, Datactivist
+### mathieu@datactivist.coop
+
+### 2020-09-21
+---
+
+class: center, middle
+
+These slides online : `r paste0("http://moreymat.github.io/ecm-cse-csds/", params$slug)`
+
+Sources : `r paste0("https://github.com/moreymat/ecm-cse-csds/", params$slug)`
+
+Productions by Datactivist are freely reusable under the terms of the [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr) license.
+
+<BR>
+<BR>
+
+![](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png)
+
+---
+# Python basics
+
+Types include :
+- numerics :
+  * integers (`int`) including booleans (`bool`),
+  * floating point numbers (`float`),
+  * complex numbers (`complex`),
+- sequences (see also iterators, generators):
+  * lists (`list`),
+  * tuples (`tuple`) and named tuples (`namedtuple`),
+  * range objects (`range`),
+  * text sequences aka strings (`str`),
+- mappings:
+  * dictionaries (`dict`)
+- plus : (frozen) sets, bytes, etc ; classes, instances, exceptions...
+
+Important properties : operations (arithmetic, containment, lookup, slicing...), mutability
+
+---
+# Resources
+
+Ultimate Python study guide : https://github.com/huangsam/ultimate-python
+
+
+
+---
+# Python data science ecosystem
+
+* [anaconda](https://www.anaconda.com/open-source) is a Python distribution: coherent set of tools and libraries
+  - `conda install mypackage`
+* [jupyter](https://jupyter.org/) is a software platform for interactive data science
+  - jupyter notebooks are documents that interweave text blocks and code blocks (eg. operating on data) ; code blocks can be executed and their results are displayed directly in the notebook
+* [pandas](https://pandas.pydata.org/) is a tool to analyze and manipulate *tabular* data.
+* [numpy](https://numpy.org/) is a library for scientific computing : optimized data structures and operations, mathematical functions, linear algebra routines, etc
+
+---
+# pandas
+
+https://pandas.pydata.org/pandas-docs/stable/getting_started/intro_tutorials/01_table_oriented.html#min-tut-01-tableoriented
+
+---
+## pandas functions and notions
+Functions:
+	- read_csv,
+	- head,
+	- tail,
+	- filter (boolean indexing),
+	- display,
+	- .values,
+	- Timestamp,
+	- date_range,
+	- Series,
+	- DataFrame,
+	- indexing,
+	- reset_index,
+	- stack
+	- unstack
+	- MultiIndex (vs tidy data)
+
+European past floods :
+https://www.eea.europa.eu/data-and-maps/data/european-past-floods
+
+---
+
+
+---
+class: inverse, center, middle
+
+# Thank you !
+
+#<mathieu@datactivist.coop>
