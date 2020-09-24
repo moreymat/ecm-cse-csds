@@ -11,7 +11,11 @@ Course material for "Computer science and data science", MScT CSE at Centrale Ma
 ## Week 2
 - Lecture : [TODO]()
 
-- Lab : [TODO]()
+- Lab : [Notebook on European past floods](https://github.com/moreymat/ecm-cse-csds/blob/master/02-python-pandas/notebooks/intro_pandas_flood.ipynb)
 
 
 ## Later
+
+## References
+- [Programming in Python for Data Science](https://prog-learn.mds.ubc.ca/en/)
+
