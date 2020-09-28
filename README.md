@@ -13,6 +13,12 @@ Course material for "Computer science and data science", MScT CSE at Centrale Ma
 
 - Lab : [Notebook on European past floods](https://github.com/moreymat/ecm-cse-csds/blob/master/02-python-pandas/notebooks/intro_pandas_flood.ipynb)
 
+## Week 3
+
+- Lab :
+  * [Loading big datasets](https://github.com/moreymat/ecm-cse-csds/blob/master/03-pandas-off/01_load-big-dataset.ipynb)
+  * [Analyzing big datasets](https://github.com/moreymat/ecm-cse-csds/blob/master/03-pandas-off/02_filter-dataviz.ipynb)
+
 
 ## Later
 
