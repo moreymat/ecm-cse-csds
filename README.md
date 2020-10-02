@@ -19,9 +19,11 @@ Course material for "Computer science and data science", MScT CSE at Centrale Ma
   * [Loading big datasets](https://github.com/moreymat/ecm-cse-csds/blob/master/03-pandas-off/01_load-big-dataset.ipynb)
   * [Analyzing big datasets](https://github.com/moreymat/ecm-cse-csds/blob/master/03-pandas-off/02_filter-dataviz.ipynb)
 
+- Lecture : [Machine Learning: history, applications, recent successes (slides by Arthur Mensch)](https://data-psl.github.io/lectures2020/slides/01_machine_learning_successes/)
 
 ## Later
 
 ## References
 - [Programming in Python for Data Science](https://prog-learn.mds.ubc.ca/en/)
-
+- [Scientific Computing in Python: Introduction to NumPy and Matplotlib](https://sebastianraschka.com/blog/2020/numpy-intro.html)
+- [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
