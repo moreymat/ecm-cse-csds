@@ -24,6 +24,12 @@ Course material for "Computer science and data science", MScT CSE at Centrale Ma
 ## Later
 
 ## References
+
+### Python for data science
 - [Programming in Python for Data Science](https://prog-learn.mds.ubc.ca/en/)
 - [Scientific Computing in Python: Introduction to NumPy and Matplotlib](https://sebastianraschka.com/blog/2020/numpy-intro.html)
 - [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
+
+### Python for geo data science
+- [Geo-Python course](https://geo-python-site.readthedocs.io/en/latest/)
+- [Automating GIS-processes](https://automating-gis-processes.github.io/site/)
