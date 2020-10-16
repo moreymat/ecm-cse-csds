@@ -7,6 +7,9 @@ You will work on an extract from OpenFoodFacts filtered to keep 29 columns, and 
 You can download the CSV file from the servers at Centrale :
 `/users/prof/mmorey/datasets/off_complete.csv` .
 
+You should be able to download it from the command line :
+`scp yourlogin@sas2.centrale-marseille.fr:/users/prof/mmorey/datasets/off_complete.csv .`
+
 ## Subject
 
 You need to write Jupyter notebooks that contain :
