@@ -20,7 +20,7 @@ Most slide decks, plus a notebook, are from the [Machine learning preparatory we
   * [Loading big datasets](https://github.com/moreymat/ecm-cse-csds/blob/master/03-pandas-off/01_load-big-dataset.ipynb)
   * [Analyzing big datasets](https://github.com/moreymat/ecm-cse-csds/blob/master/03-pandas-off/02_filter-dataviz.ipynb)
 
-## Week 4
+## Week 4
 - Lecture : [https://data-psl.github.io/lectures2020/slides/02_intro_to_machine_learning/] from the "Machine learning preparatory week @PSL"
 - Lab :
   * [Dimensionality](https://github.com/moreymat/ecm-cse-csds/blob/master/04-pca/01_iris-viz.ipynb)
