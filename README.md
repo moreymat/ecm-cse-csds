@@ -21,17 +21,17 @@ Most slide decks, plus a notebook, are from the [Machine learning preparatory we
   * [Analyzing big datasets](https://github.com/moreymat/ecm-cse-csds/blob/master/03-pandas-off/02_filter-dataviz.ipynb)
 
 ## Week 4
-- Lecture : [https://data-psl.github.io/lectures2020/slides/02_intro_to_machine_learning/] from the "Machine learning preparatory week @PSL"
+- Lecture : [Introduction to machine learning](https://data-psl.github.io/lectures2020/slides/02_intro_to_machine_learning/) from the "Machine learning preparatory week @PSL"
 - Lab :
   * [Dimensionality](https://github.com/moreymat/ecm-cse-csds/blob/master/04-pca/01_iris-viz.ipynb)
   * [Dimensionality reduction : Principal Component Analysis](https://github.com/moreymat/ecm-cse-csds/blob/master/04-pca/02_iris-pca.ipynb)
   * [Classification](https://github.com/moreymat/ecm-cse-csds/blob/master/04-pca/03_iris-classif.ipynb)
   
 ## Week 5
-- Lecture : [https://data-psl.github.io/lectures2020/slides/03_machine_learning_models/] from the "Machine learning preparatory week @PSL"
+- Lecture : [Supervised machine learning models](https://data-psl.github.io/lectures2020/slides/03_machine_learning_models/) from the "Machine learning preparatory week @PSL"
 
 ## Week 6
-- Lecture : [https://data-psl.github.io/lectures2020/slides/04_scikit_learn/] from the "Machine learning preparatory week @PSL"
+- Lecture : [Scikit-learn: estimation and pipelines](https://data-psl.github.io/lectures2020/slides/04_scikit_learn/) from the "Machine learning preparatory week @PSL"
 
 ## Project
 [Dataviz, classification and regression on OpenFoodFacts](https://github.com/moreymat/ecm-cse-csds/blob/master/project.md)
