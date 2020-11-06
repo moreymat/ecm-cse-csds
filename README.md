@@ -32,6 +32,8 @@ Most slide decks, plus a notebook, are from the [Machine learning preparatory we
 
 ## Week 6
 - Lecture : [Scikit-learn: estimation and pipelines](https://data-psl.github.io/lectures2020/slides/04_scikit_learn/) from the "Machine learning preparatory week @PSL"
+- Lab :
+  * [Multilabel classification]() (forthcoming)
 
 ## Project
 [Dataviz, classification and regression on OpenFoodFacts](https://github.com/moreymat/ecm-cse-csds/blob/master/project.md)
