@@ -5,10 +5,9 @@ Most slide decks, plus a notebook, are from the [Machine learning preparatory we
 
 ## Week 1
 - Lecture : [Data : The data in *data science*](https://moreymat.github.io/ecm-cse-csds/01-intro-data/)
-- Lab : [Python basics](https://colab.research.google.com/github/data-psl/lectures2020/blob/master/notebooks/01_python_basics.ipynb) from the "Machine learning preparatory week @PSL"
+- Lab : [Python basics](https://github.com/moreymat/ecm-cse-csds/blob/master/notebooks/1_python.ipynb) adapted from the "Machine learning preparatory week @PSL"
   * Python
   * NumPy
-  * Matplotlib
   
 ## Week 2
 - Lecture : [Python and pandas : Tabular data in Python](https://moreymat.github.io/ecm-cse-csds/02-python-pandas/)
