@@ -57,7 +57,7 @@ Productions by Datactivist are freely reusable under the terms of the [Creative 
 ## Datactivist : Who we are
 
 
-![](https://datactivist.coop/images/photo-equipe.jpg)
+![](https://github.com/moreymat/ecm-cse-csds/raw/master/01-intro-data/img/equipe-datactivist.jpg)
 
 ---
 ## Datactivist : Who we are
