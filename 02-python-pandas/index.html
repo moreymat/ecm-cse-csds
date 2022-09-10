@@ -4,7 +4,8 @@
     <title>Python and pandas</title>
     <meta charset="utf-8" />
     <meta name="author" content="Mathieu Morey" />
-    <meta name="date" content="2020-09-21" />
+    <meta name="date" content="2022-09-12" />
+    <script src="libs/header-attrs-2.16/header-attrs.js"></script>
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/datactivist.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/datactivist-fonts.css" rel="stylesheet" />
@@ -22,7 +23,7 @@ background-position: 50% 50%
 ## Mathieu Morey, Datactivist
 ### mathieu@datactivist.coop
 
-### 2020-09-21
+### 2022-09-12
 ---
 
 class: center, middle
@@ -39,10 +40,10 @@ Productions by Datactivist are freely reusable under the terms of the [Creative 
 ![](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png)
 
 ---
-# Checklist : Setup
+# Checklist : Setup on your personal computer
 
-- Download miniconda for linux from https://docs.conda.io/en/latest/miniconda.html :
-https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+- Download miniconda for linux from &lt;https://docs.conda.io/en/latest/miniconda.html&gt; :
+&lt;https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh&gt;
 
 - Install miniconda :
 `bash Miniconda3-latest-Linux-x86_64.sh`
@@ -56,28 +57,105 @@ then answer "yes" to the two yes/no questions
 ---
 # Python basics
 
-Types include :
-- numerics :
-  * integers (`int`) including booleans (`bool`),
-  * floating point numbers (`float`),
-  * complex numbers (`complex`),
-- sequences (see also iterators, generators):
-  * lists (`list`),
-  * tuples (`tuple`) and named tuples (`namedtuple`),
-  * range objects (`range`),
-  * text sequences aka strings (`str`),
-- mappings:
-  * dictionaries (`dict`)
-- plus : (frozen) sets, bytes, etc ; classes, instances, exceptions...
+---
+## Types: Numerics
 
-Important properties : operations (arithmetic, containment, lookup, slicing...), mutability
+* integers (`int`) including booleans (`bool`),
+* floating point numbers (`float`),
+* complex numbers (`complex`),
+
+```python
+a = 213
+b = True
+c = 4.1
+d = 5 / 2
+e = 1 + 2j
+type(e)
+```
+
+
+---
+## Types: Sequences
+
+* lists (`list`),
+* tuples (`tuple`) and named tuples (`namedtuple`),
+* range objects (`range`),
+* text sequences aka strings (`str`),
+
+```python
+f = [213, 5, -1]
+g = [3, -1.1, 12]
+h = ["this is ", "a list of", " ", "strings."]
+i = range(2, 5)  # how do we use this?
+j = "This is another string with more than 23 characters !#~#û@^\û"
+```
+
+see also [iterators](), [generators]().
+
+---
+## Types: Sets and Mappings
+
+* sets (`set`)
+* frozen sets (`frozenset`)
+* dictionaries (`dict`)
+
+```python
+k = set([1, 12, "a"])
+l = frozenset(["xo", 2.1, 12, "13013"])
+m = dict([("13013", "Marseille 13e"), ("13001", "Marseille 1er"), ("13100", "Aix-en-Provence")])
+n = {"13013": "Marseille 13e", "13001": "Marseille 1er", "13100": "Aix-en-Provence"}
+```
+
+---
+## Other types
+
+* raw content: bytes
+* object oriented programming: classes, instances
+* exceptions
+
+```python
+o = bytes("é", "utf-8")
+p = b'\xc3\xa9'
+```
+
+---
+## Properties of types: Operations
+
+- arithmetic,
+- containment,
+- lookup,
+- slicing
+
+```python
+a * 2
+c + d
+a - c
+a in f
+12 in k
+n["13001"]
+h[2]
+h[1:3]
+h[1:]
+h[:2]
+```
+
+---
+## Properties of types: Mutability
+
+```python
+g.append(31)
+g[1] = "xxx"
+g.remove(31)
+n["13002"] = "Marseille 2e"
+n["13001"] = "Marseille 1e"
+k.add("you")
+l.add("you")
+```
 
 ---
 # Resources
 
-Ultimate Python study guide : https://github.com/huangsam/ultimate-python
-
-
+Ultimate Python study guide : &lt;https://github.com/huangsam/ultimate-python&gt;
 
 ---
 # Python data science ecosystem
@@ -92,32 +170,60 @@ Ultimate Python study guide : https://github.com/huangsam/ultimate-python
 ---
 # pandas
 
-https://pandas.pydata.org/pandas-docs/stable/getting_started/intro_tutorials/01_table_oriented.html#min-tut-01-tableoriented
+&lt;https://pandas.pydata.org/pandas-docs/stable/getting_started/intro_tutorials/01_table_oriented.html#min-tut-01-tableoriented&gt;
 
 ---
-## pandas functions and notions
-Functions:
-	- read_csv,
-	- head,
-	- tail,
-	- filter (boolean indexing),
-	- display,
-	- .values,
-	- Timestamp,
-	- date_range,
-	- Series,
-	- DataFrame,
-	- indexing,
-	- reset_index,
-	- stack
-	- unstack
-	- MultiIndex (vs tidy data)
+## pandas: Tabular data
+
+* read data:
+  - `read_csv()`,
+  - `read_xml()`...
+* represent a table:
+  - `DataFrame`,
+  - `Series`
+* extract cell values:
+  - `.values`
+  - `.loc`
+  - `.iloc`
+* get columns:
+  - `info()`,
+  - `.columns`,
+  - `.dtypes`
+
+---
+## pandas: Select content
+
+* select the first or last rows:
+  - `head()`,
+  - `tail()`
+* filter data (boolean indexing),
+* select columns
+
+---
+## pandas: Temporal data
+
+* represent temporal data:
+  - `Timestamp`,
+  - `to_datetime`,
+* generate temporal data:
+  - `date_range()`
+
+---
+## pandas: Index and shape
+
+* index data:
+  - `.index`,
+  - `reset_index()`,
+* reshape data:
+  - `stack()`,
+  - `unstack()`,
+  - `MultiIndex` (vs tidy data)
+
+---
+## Dataset for the hands-on session
 
 European past floods :
-https://www.eea.europa.eu/data-and-maps/data/european-past-floods
-
----
-
+&lt;https://www.eea.europa.eu/data-and-maps/data/european-past-floods&gt;
 
 ---
 class: inverse, center, middle

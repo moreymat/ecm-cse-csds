@@ -11,7 +11,7 @@ Most slide decks, plus a notebook, are from the [Machine learning preparatory we
   
 ## Week 2
 - Lecture : [Python and pandas : Tabular data in Python](https://moreymat.github.io/ecm-cse-csds/02-python-pandas/)
-- Lab : [Notebook on European past floods](https://github.com/moreymat/ecm-cse-csds/blob/master/02-python-pandas/notebooks/intro_pandas_flood.ipynb)
+- Lab : [Notebook on European past floods](https://github.com/moreymat/ecm-cse-csds/blob/master/notebooks/02_intro_pandas_flood.ipynb)
 
 ## Week 3
 - Lecture : [Machine Learning: history, applications, recent successes](https://data-psl.github.io/lectures2020/slides/01_machine_learning_successes/)  from the "Machine learning preparatory week @PSL"
