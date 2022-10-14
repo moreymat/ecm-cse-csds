@@ -3,6 +3,10 @@ Course material for "Computer science and data science", MScT CSE at Centrale Ma
 
 Most slide decks, plus a notebook, are from the [Machine learning preparatory week @PSL](https://github.com/data-psl/lectures2020/).
 
+## Evaluation
+
+- [Quiz](https://moreymat.github.io/ecm-cse-csds/evaluation/quiz/quiz.html)
+
 ## Week 1
 - Lecture : [Data : The data in *data science*](https://moreymat.github.io/ecm-cse-csds/01-intro-data/)
 - Lab : [Python basics](https://github.com/moreymat/ecm-cse-csds/blob/master/notebooks/1_python.ipynb) adapted from the "Machine learning preparatory week @PSL"
