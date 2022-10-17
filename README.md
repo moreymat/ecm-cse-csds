@@ -6,6 +6,7 @@ Most slide decks, plus a notebook, are from the [Machine learning preparatory we
 ## Evaluation
 
 - [Quiz](https://moreymat.github.io/ecm-cse-csds/evaluation/quiz/quiz.html)
+- [Assignment 2](https://moreymat.github.io/ecm-cse-csds/evaluation/2-assign.html)
 
 ## Week 1
 - Lecture : [Data : The data in *data science*](https://moreymat.github.io/ecm-cse-csds/01-intro-data/)
