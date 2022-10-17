@@ -7,8 +7,8 @@
   - why the dataset is interesting and relevant to you (as a person or as an environment engineer),
   - what the dataset contains (cf. the section "Read the documentation" in the notebook on "European past floods"),
   - what types of analyses (dataviz, prediction) you intend to perform on it.
-- Send me your description by email at <mathieu@datactivist.coop> **no later than Wednesday 20th October**, so that I can validate your choice of dataset and assess the quality of your argumentation.
-- Once I validate your dataset, prepare a short (5 minutes max.) presentation (PDF slideshow) for the description you sent me, that you will present to the class on the next session (Monday 25th October).
+- Send me your description by email at <mathieu@datactivist.coop> **no later than Monday 17th October**, so that I can validate your choice of dataset and assess the quality of your argumentation.
+- Once I validate your dataset, prepare a short (5 minutes max.) presentation (PDF slideshow) for the description you sent me, that you will present to the class on the next session (Friday 21st October).
 
 ## Rules
 
@@ -31,5 +31,5 @@ You will be graded on:
 
 ## Calendar
 
-- Wednesday 20th October : deadline to send the description of your dataset,
-- Monday 25th Octobre : presentation to your colleagues.
+- Monday 17th October : deadline to send the description of your dataset,
+- Friday 21st October : presentation to your colleagues.
