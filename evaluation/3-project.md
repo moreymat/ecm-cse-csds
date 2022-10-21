@@ -8,7 +8,7 @@ You will send me a series of Jupyter notebooks that consist in three parts :
 
 ## Presentation of the dataset
 
-With some text and images, present the dataset you work on, based on the presentation you gave in front of your peers (on Monday 25th October or Wednesday 27th October), enriched with their feedbacks and questions.
+With some text and images, present the dataset you work on, based on the presentation you gave in front of your peers (on Friday 21st October), enriched with their feedbacks and questions.
 
 You should inform the reader on what the dataset contains, where it comes from, who collected the data, its intended use, its known uses etc.
 You should also explain why this dataset matters, to you and your readers (eg. professionals from your area of expertise).
@@ -40,4 +40,4 @@ Then, instead of a model, define a complex but readable dataviz on your dataset,
 You need to send your set of notebooks by email :
 
 - to <mathieu@datactivist.coop>
-- before Monday 22th November (2021-11-22), 10am (Paris timezone).
+- before Monday 21st November (2022-11-21), 10am (Paris timezone).
