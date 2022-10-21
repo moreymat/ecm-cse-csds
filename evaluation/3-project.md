@@ -40,4 +40,4 @@ Then, instead of a model, define a complex but readable dataviz on your dataset,
 You need to send your set of notebooks by email :
 
 - to <mathieu@datactivist.coop>
-- before Monday 21st November (2022-11-21), 10am (Paris timezone).
+- before Monday 28th November (2022-11-28), 10am (Paris timezone).
