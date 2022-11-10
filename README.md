@@ -42,7 +42,7 @@ Most slide decks, plus a notebook, are from the [Machine learning preparatory we
   * finish the previous notebooks
 
 ## Project
-[Presentation, description and modeling](https://github.com/moreymat/ecm-cse-csds/blob/master/evaluation/2021-3-project.md)
+[Presentation, description and modeling](https://moreymat.github.io/ecm-cse-csds/evaluation/3-project.html)
 
 ## References
 
